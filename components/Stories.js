@@ -14,6 +14,11 @@ const stories = [
     profile: '/images/elon-musk-sm.jpg',
   },
   {
+    name: 'Elon Musk',
+    src: '/images/elon-musk.jpg',
+    profile: '/images/elon-musk-sm.jpg',
+  },
+  {
     name: 'Jeff Bezoz',
     src: '/images/jeff-bezoz.jpg',
     profile: '/images/jeff-bezoz-sm.jpg',
