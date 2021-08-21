@@ -10,7 +10,7 @@ const stories = [
   // },
   {
     name: 'Elon Musk',
-    src: '/images/elon-musk.jpg',
+    src: 'https://links.papareact.com/4zn',
     profile: '/images/elon-musk-sm.jpg',
   },
   {
@@ -40,16 +40,14 @@ const s = [1, 2, 3, 5];
 const Stories = () => {
   return (
     <div className="flex justify-center space-x-3 mx-auto">
-      {stories.map((story) => {
-        return (
-          <StoryCard
-            key={story.src}
-            name={story.name}
-            src={story.src}
-            profile={story.profile}
-          />
-        );
-      })}
+      {stories.map((story) => (
+        <StoryCard
+          key={story.src}
+          name={story.name}
+          src={story.src}
+          profile={story.profile}
+        />
+      ))}
     </div>
   );
 };

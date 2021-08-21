@@ -26,7 +26,7 @@ const InputBox = () => {
         message: inputRef.current.value,
         name: session.user.name,
         email: session.user.email,
-        imasge: session.user.image,
+        image: session.user.image,
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       })
       .then((doc) => {
